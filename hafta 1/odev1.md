@@ -12,24 +12,25 @@ Kod ornegi icin:
 
 
 <details>
+   
+    ```code
     
-    
-public class QuestionOne {
-    public static void main(String[] args) {
-      Patika patikaObj = new Patika("patikaObject 1");
-      System.out.println(patikaObj);
-      testMethod(patikaObj);
-      System.out.println(patikaObj);
-    }
-    public static void testMethod(Patika patikaObjX) {
-        patikaObjX = new Patika("object 2");
-    }
-}
- class Patika {
-    public Patika(String x){
-    }
-}
-    
+         public class QuestionOne {
+            public static void main(String[] args) {
+              Patika patikaObj = new Patika("patikaObject 1");
+              System.out.println(patikaObj);
+              testMethod(patikaObj);
+              System.out.println(patikaObj);
+            }
+            public static void testMethod(Patika patikaObjX) {
+                patikaObjX = new Patika("object 2");
+            }
+        }
+         class Patika {
+            public Patika(String x){
+            }
+        }
+    ```
     
 </details>
 
