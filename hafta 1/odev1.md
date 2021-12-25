@@ -9,10 +9,14 @@ Pass by value (deger gecirme), pass by reference (referans gecirme). Java progra
 
 
 Kod ornegi icin: 
+
+
 <details>
-public class SoruBir {
+    
+    
+public class QuestionOne {
     public static void main(String[] args) {
-      Patika patikaObj = new Patika("patikaObjeckt 1");
+      Patika patikaObj = new Patika("patikaObject 1");
       System.out.println(patikaObj);
       testMethod(patikaObj);
       System.out.println(patikaObj);
@@ -25,7 +29,10 @@ public class SoruBir {
     public Patika(String x){
     }
 }
+    
+    
 </details>
+
 
 ---
 
