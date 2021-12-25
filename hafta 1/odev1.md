@@ -13,7 +13,7 @@ Kod ornegi icin:
 
 <details>
    
-    ```code
+    
     
          public class QuestionOne {
             public static void main(String[] args) {
@@ -30,7 +30,7 @@ Kod ornegi icin:
             public Patika(String x){
             }
         }
-    ```
+   
     
 </details>
 
